@@ -16,3 +16,5 @@ Then, run this command:
 ## Known Issues
 
 *Currently, doesn't run stable with **multiline variables**.*
+
+*Variable name cannot be defined as **containing another variable name**.*
