@@ -118,6 +118,20 @@ def main(args):
     if len(args) < 2:
         print('File argument not passed. If you want to get info for usage, type --help argument.')
         return
+    if args[1] == '--help':
+        print('''deconstpy: deconstpy [--help] [arg ...]
+        Deconstants arguments.
+
+        Arguments must be a Python files and have .py extension.
+
+        Options:
+          --help         display help message
+
+        Constant syntax must like that:
+        EXAMPLE_CONSTANTS1 = 'sample string'
+
+        Please check directory deconstpy. If exits, remove or move it.''')
+        return
     try:
         os.mkdir('deconstpy')
     except FileExistsError:
