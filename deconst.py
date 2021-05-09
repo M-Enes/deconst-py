@@ -1,6 +1,7 @@
+#! /usr/bin/python3
+
 import os
 import sys
-
 
 def copy_file(file, destination):
     os.system(f'cp {file} {destination}')
@@ -115,6 +116,13 @@ def write_file(file, lines):
 
 
 def main(args):
+    if not os.path.isfile('/bin/deconstpy'):
+        isCommandApply = input('Would you like to set deconstpy command for use in all folders (type y for apply)')
+        if isCommandApply == 'y':
+            copy_file("deconst.py", "/bin/deconstpy")
+            print('deconstpy command set successfully.')
+            exit()
+
     if len(args) < 2:
         print('File argument not passed. If you want to get info for usage, type --help argument.')
         return
@@ -132,16 +140,20 @@ def main(args):
 
         Please check directory deconstpy. If exits, remove or move it.''')
         return
+
     try:
         os.mkdir('deconstpy')
     except FileExistsError:
         print('Directory deconstpy exists. Please remove or move it.')
 
     for arg in args[1:]:
-        copy_file(arg, os.path.join(os.curdir, 'deconstpy'))
-        lines, variables = read_file(os.path.join('.', 'deconstpy', arg))
+        if arg.startswith('--'):
+            continue #TODO: add implementation for flags
+        print(f'{arg} is copied')
+        copy_file(arg, os.path.join(os.curdir, 'deconstpyfiles'))
+        lines, variables = read_file(os.path.join(os.curdir, 'deconstpyfiles', arg))
         lines = process_lines(lines, variables)
-        write_file(os.path.join('.', 'deconstpy', arg), lines)
+        write_file(os.path.join(os.curdir, 'deconstpyfiles', arg), lines)
 
 
 if __name__ == '__main__':

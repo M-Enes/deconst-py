@@ -2,16 +2,16 @@
 
 Simple **command line tool** for replace constant with value in **Python files**.
 
-## Usage
+## Installing
 First, clone project with command:
 
 `git clone https://github.com/M-Enes/deconst-py.git`
 
-Then, run this command:
+Then, enter the directory with `cd deconst-py`
 
-`python3 deconst.py sample.py`
+Then, run this `./deconst.py`
 
-**Congrats!** You processed the sample file with deconst-py.
+**Congrats!** You set up deconst-py successfully, you can use it now with `deconst-py` on anywhere.
 
 ## Known Issues
 
