@@ -3,7 +3,7 @@
 Simple **command line tool** for replace constant with value in **Python files**.
 
 ## Installing
-First, clone project with command:
+Clone project with command:
 
 `git clone https://github.com/M-Enes/deconst-py.git`
 
@@ -18,3 +18,6 @@ Then, run this `./deconst.py`
 *Currently, doesn't run stable with **multiline variables**.*
 
 *Variable name cannot be defined as **containing another variable name**.*
+
+## Thanks
+Thanks @MaliBYK and @Jandro46t my friends that helped me during the development and usage tests.
