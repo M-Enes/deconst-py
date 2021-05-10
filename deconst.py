@@ -1,5 +1,3 @@
-#! /usr/bin/python3
-
 import os
 import sys
 
@@ -116,13 +114,6 @@ def write_file(file, lines):
 
 
 def main(args):
-    if not os.path.isfile('/bin/deconstpy'):
-        isCommandApply = input('Would you like to set deconstpy command for use in all folders (type y for apply)')
-        if isCommandApply == 'y':
-            copy_file("deconst.py", "/bin/deconstpy")
-            print('deconstpy command set successfully.')
-            exit()
-
     if len(args) < 2:
         print('File argument not passed. If you want to get info for usage, type --help argument.')
         return
