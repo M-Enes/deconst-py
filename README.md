@@ -1,6 +1,6 @@
 <h1 align="center">deconst-py</h1>
 
-Simple **command line tool** for replace constants with their values in **Python files**.
+> Simple **command line tool** for replace constants with their values in **Python files**.
 
 ## Basic Algorithm
 
@@ -32,7 +32,7 @@ Then, run this
 
 ### For Windows
 
-Coming soon...
+Coming soon... 💻
 
 ## Known Issues
 
