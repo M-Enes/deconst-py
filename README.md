@@ -2,6 +2,11 @@
 
 Simple **command line tool** for replace constants with their values in **Python files**.
 
+## Basic Algorithm
+
+![functions](./docs/functions.png "a title")
+
+charts designed with draw.io
 ## Installation
 
 Currently, it only works on linux command line. We will support other commonly used operating systems soon.
