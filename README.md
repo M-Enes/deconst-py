@@ -1,4 +1,4 @@
-# deconst-py project
+<h1 style="text-align:center; font-family:monospace; font-size:3rem">deconst-py</h1>
 
 Simple **command line tool** for replace constants with their values in **Python files**.
 
@@ -9,7 +9,7 @@ Simple **command line tool** for replace constants with their values in **Python
 charts designed with draw.io
 ## Installation
 
-Currently, it only works on linux command line. We will support other commonly used operating systems soon.
+Currently, **it only works on linux command line. We will support other commonly used operating systems** soon.
 ### For Linux
 
 Clone project with command:
