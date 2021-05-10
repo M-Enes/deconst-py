@@ -1,10 +1,10 @@
-<h1 style="text-align:center; font-family:monospace; font-size:3rem">deconst-py</h1>
+<h1 style="text-align:center; font-family:monospace; font-size:2.8rem">deconst-py</h1>
 
 Simple **command line tool** for replace constants with their values in **Python files**.
 
 ## Basic Algorithm
 
-![functions](./docs/functions.png "a title")
+![functions](./docs/functions.png "functions")
 
 charts designed with draw.io
 ## Installation
