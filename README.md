@@ -1,4 +1,4 @@
-<h1 style="text-align:center; font-family:monospace; font-size:2.8rem">deconst-py</h1>
+<h1 align="center">deconst-py</h1>
 
 Simple **command line tool** for replace constants with their values in **Python files**.
 
@@ -41,4 +41,4 @@ Coming soon...
 *Variable name cannot be defined as **containing another variable name**.*
 
 ## Thanks
-Thanks [@MaliBYK](https://github.com/MaliBYK) and [@Jandro46t](https://github.com/Jandro46t) my friends that helped me during the development and usage tests.
+Thanks [@MaliBYK](https://github.com/MaliBYK) and [@Jandro46t](https://github.com/Jandro46t) my friends that helped me during the development and feedbacks.
