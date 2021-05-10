@@ -3,6 +3,10 @@
 Simple **command line tool** for replace constants with their values in **Python files**.
 
 ## Installation
+
+Currently, it only works on linux command line. We will support other commonly used operating systems soon.
+### For Linux
+
 Clone project with command:
 
 ```
@@ -20,6 +24,10 @@ Then, run this
 ```
 
 **Congrats!** You set up deconst-py successfully, you can use it now with `deconst-py` on anywhere.
+
+### For Windows
+
+Coming soon...
 
 ## Known Issues
 
