@@ -1,0 +1,27 @@
+name: deconst-py
+summary: Simple command line tool that deconsts Python files.
+description: |
+  deconst-py is a command line tool for remove constant variables and
+  replace them to their values.
+  Coding in Python for deconst Python codes.
+  Made by Muhammed Enes Karaca https://github.com/m-enes.
+base: core20
+version: '0.8.1'
+
+parts:
+  deconst-py:
+    plugin: python
+    source: .
+    stage-packages:
+    - python3-pip
+    
+apps:
+  deconst-py:
+    command: bin/deconst.py
+
+confinement: strict
+
+plugs:
+  deconst-py-home:
+    interface: home
+

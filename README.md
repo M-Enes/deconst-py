@@ -1,5 +1,7 @@
 <h1 align="center">deconst-py</h1>
 
+[![deconst-py](https://snapcraft.io/deconst-py/badge.svg)](https://snapcraft.io/deconst-py)
+
 > Simple **command line tool** for replace constants with their values in **Python files**.
 
 ## Basic Algorithm
@@ -12,13 +14,12 @@ charts designed with draw.io
 Currently, **it only works on linux command line. We will support other commonly used operating systems** soon.
 ### For Linux
 
-Clone project with command:
-
+Clone project with command
 ```
 git clone https://github.com/M-Enes/deconst-py.git
 ```
 
-Then, enter the directory with 
+Then, enter the directory with
 ```
 cd deconst-py
 ```
