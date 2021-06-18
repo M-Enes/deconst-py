@@ -4,6 +4,8 @@
 
 > Simple **command line tool** for replace constants with their values in **Python files**.
 
+`This repo was arcived by me. I don't think make any development on this project. Thanks for your understanding.`
+
 ## Basic Algorithm
 
 ![functions](./docs/functions.png "functions")
